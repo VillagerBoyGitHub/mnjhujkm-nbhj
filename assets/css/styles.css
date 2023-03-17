@@ -1,0 +1,43 @@
+input {
+    background: #3023de;
+    color: #fff;
+    border-bottom: #3023de;
+    border-right: #3023de;
+    border-radius: 15px;
+    padding: 5px;
+    transition: cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.5s 0s;
+    
+}
+
+input:focus {
+    border-radius: 15px;
+    background-color:#0fab31;
+}
+
+.title {
+    font-size: 70px;
+    color:#0fab31;
+    margin: left 50% right 50%;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.woff2);
+    src:url(../fonts/Roboto.woff)
+}
+
+#login {
+    margin: 0px 0px 0px;
+    position: absolute;
+    cursor: pointer;
+    right:121px;
+}
+
+.login {
+    align-items: center;
+    top:25%;
+    bottom:25%;
+    left:40%;
+    position: absolute;
+}
