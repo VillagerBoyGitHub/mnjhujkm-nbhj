@@ -43,15 +43,3 @@ input:focus {
     position: absolute;
     background: linear-gradient(45deg, #00d7a5, #002bff);
 }
-#left {
-    bottom: 0%;
-    position: absolute;
-    margin: 0;
-}
-
-#right {
-    bottom: 0%;
-    position: absolute;
-    right: 0%;
-    margin: 0;
-}
